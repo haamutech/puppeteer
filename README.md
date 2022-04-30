@@ -26,7 +26,7 @@ async function main(argv) {
    const page = await browser.newPage();
 
    // Navigate to url.
-   await page.goto(argv[1]);
+   await page.goto(argv[2]);
 
    // TODO: Do something with the page.
 
